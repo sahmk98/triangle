@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <style>
+         body{
+             background-color: burlywood;
+         }
+         
+        .c1{
+            margin: 10% 20% 30% 40%;
+           
+         }
+         #triangle1 {
+             height: 0px;
+             width: 0px;
+             border: 100px solid burlywood ;
+             border-bottom: 100px solid #ff0000;
+             position: absolute;
+             z-index: 3;
+         }
+         #triangle2{
+             top: 60px;
+             height: 0px;
+             width: 0px;
+             border: 100px solid burlywood;
+             border-bottom: 100px solid rgb(50, 60, 60);
+             position: absolute;
+             z-index: 2;
+         }
+         #triangle3 {
+             top: 120px;
+             height: 0px;
+             width: 0px;
+             border: 100px solid burlywood;
+             border-bottom: 100px solid rgb(100, 60, 60);
+             position: absolute;
+             z-index: 1;
+         }
+     </style>
+    </head>
+    <body>
+        <div>
+            <div id="triangle1" class="c1"></div>
+            <div id="triangle2" class="c1"></div>
+            <div id="triangle3" class="c1"></div>
+        </div>
+    </body>
+</html>
